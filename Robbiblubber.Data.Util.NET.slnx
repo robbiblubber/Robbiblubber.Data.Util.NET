@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Robbiblubber.Data.Util.CSV/Robbiblubber.Data.Util.CSV.csproj" />
+  <Project Path="Robbiblubber.Data.Util.Excel/Robbiblubber.Data.Util.Excel.csproj" />
+  <Project Path="Robbiblubber.Data.Util.Export/Robbiblubber.Data.Util.Export.csproj" />
+  <Project Path="Robbiblubber.Data.Util.OData/Robbiblubber.Data.Util.OData.csproj" Id="831e84d7-f7a3-4ba0-98be-d45243a491b7" />
+</Solution>

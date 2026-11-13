@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>robbiblubber.org Excel Utility Library</Title>
+    <Authors>Alexander Lang</Authors>
+    <Company>robbiblubber.org</Company>
+    <Product>robbiblubber.org Data Utility Libraries</Product>
+    <Description>The robbiblubber.org Data Utility Excel Library provides classes for operations with Microsoft Excel.</Description>
+    <Copyright>© 2026 robbiblubber.org</Copyright>
+    <PackageProjectUrl>https://robbiblubber.org/</PackageProjectUrl>
+    <PackageIcon>nuget_robbiblubber.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://bitbucket.org/robbiblubber/robbiblubber.data.util.net/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Excel, Export</PackageTags>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <Version>1.0.12</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Robbiblubber.Data.Util.CSV\Properties\AssemblyVersion.cs" Link="Properties\AssemblyVersion.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="license.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="nuget_robbiblubber.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
